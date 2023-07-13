@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57ED2472A5E810E00670C31 /* IstagramPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2462A5E810E00670C31 /* IstagramPracticeApp.swift */; };
+		D57ED2492A5E810E00670C31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2482A5E810E00670C31 /* ContentView.swift */; };
+		D57ED24B2A5E811000670C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57ED24A2A5E811000670C31 /* Assets.xcassets */; };
+		D57ED24E2A5E811000670C31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57ED24D2A5E811000670C31 /* Preview Assets.xcassets */; };
+		D57ED2612A5E836A00670C31 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2602A5E836A00670C31 /* MainTabView.swift */; };
+		D57ED2632A5E856400670C31 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2622A5E856400670C31 /* ColorModel.swift */; };
+		D57ED2652A5E882800670C31 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2642A5E882800670C31 /* ProfileView.swift */; };
+		D57ED2682A5E8FE800670C31 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2672A5E8FE800670C31 /* UserStatView.swift */; };
+		D57ED26A2A5E994F00670C31 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2692A5E994F00670C31 /* FeedView.swift */; };
+		D57ED26C2A5E995800670C31 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED26B2A5E995800670C31 /* FeedCell.swift */; };
+		D57ED26E2A5EC3B600670C31 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED26D2A5EC3B600670C31 /* SearchView.swift */; };
+		D57ED2702A5F163E00670C31 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED26F2A5F163E00670C31 /* LoginView.swift */; };
+		D57ED2722A5F208C00670C31 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2712A5F208C00670C31 /* AddEmailView.swift */; };
+		D57ED2742A5F255C00670C31 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2732A5F255C00670C31 /* IGTextFieldModifier.swift */; };
+		D57ED2762A5FBA4000670C31 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2752A5FBA4000670C31 /* CreateUsernameView.swift */; };
+		D57ED2782A5FBE9C00670C31 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2772A5FBE9C00670C31 /* CreatePasswordView.swift */; };
+		D57ED27A2A5FC01B00670C31 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2792A5FC01B00670C31 /* CompleteSignUpView.swift */; };
+		D57ED27C2A6000A300670C31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED27B2A6000A300670C31 /* User.swift */; };
+		D57ED27E2A60130900670C31 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED27D2A60130900670C31 /* CurrentUserProfileView.swift */; };
+		D57ED2802A6017D300670C31 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED27F2A6017D300670C31 /* Post.swift */; };
+		D57ED2822A60260800670C31 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2812A60260800670C31 /* PostGridView.swift */; };
+		D57ED2842A60288100670C31 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2832A60288100670C31 /* ProfileHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D57ED2432A5E810E00670C31 /* IstagramPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IstagramPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57ED2462A5E810E00670C31 /* IstagramPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstagramPracticeApp.swift; sourceTree = "<group>"; };
+		D57ED2482A5E810E00670C31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D57ED24A2A5E811000670C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57ED24D2A5E811000670C31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D57ED2602A5E836A00670C31 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D57ED2622A5E856400670C31 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		D57ED2642A5E882800670C31 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D57ED2672A5E8FE800670C31 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		D57ED2692A5E994F00670C31 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		D57ED26B2A5E995800670C31 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		D57ED26D2A5EC3B600670C31 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D57ED26F2A5F163E00670C31 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D57ED2712A5F208C00670C31 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		D57ED2732A5F255C00670C31 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		D57ED2752A5FBA4000670C31 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		D57ED2772A5FBE9C00670C31 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		D57ED2792A5FC01B00670C31 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		D57ED27B2A6000A300670C31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D57ED27D2A60130900670C31 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		D57ED27F2A6017D300670C31 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D57ED2812A60260800670C31 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		D57ED2832A60288100670C31 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57ED2402A5E810E00670C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57ED23A2A5E810E00670C31 = {
+			isa = PBXGroup;
+			children = (
+				D57ED2452A5E810E00670C31 /* IstagramPractice */,
+				D57ED2442A5E810E00670C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57ED2442A5E810E00670C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2432A5E810E00670C31 /* IstagramPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57ED2452A5E810E00670C31 /* IstagramPractice */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2582A5E818B00670C31 /* App */,
+				D57ED2572A5E818900670C31 /* Core */,
+				D57ED2562A5E818700670C31 /* Extensions */,
+				D57ED2552A5E817700670C31 /* Model */,
+				D57ED2542A5E815600670C31 /* Services */,
+				D57ED2482A5E810E00670C31 /* ContentView.swift */,
+				D57ED24A2A5E811000670C31 /* Assets.xcassets */,
+				D57ED24C2A5E811000670C31 /* Preview Content */,
+			);
+			path = IstagramPractice;
+			sourceTree = "<group>";
+		};
+		D57ED24C2A5E811000670C31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED24D2A5E811000670C31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D57ED2542A5E815600670C31 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D57ED2552A5E817700670C31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2622A5E856400670C31 /* ColorModel.swift */,
+				D57ED27B2A6000A300670C31 /* User.swift */,
+				D57ED27F2A6017D300670C31 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D57ED2562A5E818700670C31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D57ED2572A5E818900670C31 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2592A5E81F700670C31 /* Authentication */,
+				D57ED2662A5E8F9100670C31 /* Components */,
+				D57ED25A2A5E822300670C31 /* Feed */,
+				D57ED25B2A5E822900670C31 /* Profile */,
+				D57ED25C2A5E823200670C31 /* Root */,
+				D57ED25D2A5E823900670C31 /* Search */,
+				D57ED25E2A5E829500670C31 /* TabBar */,
+				D57ED25F2A5E82AC00670C31 /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D57ED2582A5E818B00670C31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2462A5E810E00670C31 /* IstagramPracticeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D57ED2592A5E81F700670C31 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED26F2A5F163E00670C31 /* LoginView.swift */,
+				D57ED2712A5F208C00670C31 /* AddEmailView.swift */,
+				D57ED2752A5FBA4000670C31 /* CreateUsernameView.swift */,
+				D57ED2772A5FBE9C00670C31 /* CreatePasswordView.swift */,
+				D57ED2792A5FC01B00670C31 /* CompleteSignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D57ED25A2A5E822300670C31 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2692A5E994F00670C31 /* FeedView.swift */,
+				D57ED26B2A5E995800670C31 /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		D57ED25B2A5E822900670C31 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2642A5E882800670C31 /* ProfileView.swift */,
+				D57ED27D2A60130900670C31 /* CurrentUserProfileView.swift */,
+				D57ED2832A60288100670C31 /* ProfileHeaderView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D57ED25C2A5E823200670C31 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		D57ED25D2A5E823900670C31 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED26D2A5EC3B600670C31 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D57ED25E2A5E829500670C31 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2602A5E836A00670C31 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D57ED25F2A5E82AC00670C31 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		D57ED2662A5E8F9100670C31 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2672A5E8FE800670C31 /* UserStatView.swift */,
+				D57ED2732A5F255C00670C31 /* IGTextFieldModifier.swift */,
+				D57ED2812A60260800670C31 /* PostGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57ED2422A5E810E00670C31 /* IstagramPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57ED2512A5E811000670C31 /* Build configuration list for PBXNativeTarget "IstagramPractice" */;
+			buildPhases = (
+				D57ED23F2A5E810E00670C31 /* Sources */,
+				D57ED2402A5E810E00670C31 /* Frameworks */,
+				D57ED2412A5E810E00670C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IstagramPractice;
+			productName = IstagramPractice;
+			productReference = D57ED2432A5E810E00670C31 /* IstagramPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57ED23B2A5E810E00670C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D57ED2422A5E810E00670C31 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D57ED23E2A5E810E00670C31 /* Build configuration list for PBXProject "IstagramPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57ED23A2A5E810E00670C31;
+			productRefGroup = D57ED2442A5E810E00670C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57ED2422A5E810E00670C31 /* IstagramPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57ED2412A5E810E00670C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57ED24E2A5E811000670C31 /* Preview Assets.xcassets in Resources */,
+				D57ED24B2A5E811000670C31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57ED23F2A5E810E00670C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57ED26A2A5E994F00670C31 /* FeedView.swift in Sources */,
+				D57ED2782A5FBE9C00670C31 /* CreatePasswordView.swift in Sources */,
+				D57ED2762A5FBA4000670C31 /* CreateUsernameView.swift in Sources */,
+				D57ED26E2A5EC3B600670C31 /* SearchView.swift in Sources */,
+				D57ED27C2A6000A300670C31 /* User.swift in Sources */,
+				D57ED2492A5E810E00670C31 /* ContentView.swift in Sources */,
+				D57ED2632A5E856400670C31 /* ColorModel.swift in Sources */,
+				D57ED2842A60288100670C31 /* ProfileHeaderView.swift in Sources */,
+				D57ED2742A5F255C00670C31 /* IGTextFieldModifier.swift in Sources */,
+				D57ED2652A5E882800670C31 /* ProfileView.swift in Sources */,
+				D57ED2472A5E810E00670C31 /* IstagramPracticeApp.swift in Sources */,
+				D57ED26C2A5E995800670C31 /* FeedCell.swift in Sources */,
+				D57ED27A2A5FC01B00670C31 /* CompleteSignUpView.swift in Sources */,
+				D57ED2822A60260800670C31 /* PostGridView.swift in Sources */,
+				D57ED2612A5E836A00670C31 /* MainTabView.swift in Sources */,
+				D57ED2702A5F163E00670C31 /* LoginView.swift in Sources */,
+				D57ED2722A5F208C00670C31 /* AddEmailView.swift in Sources */,
+				D57ED2802A6017D300670C31 /* Post.swift in Sources */,
+				D57ED2682A5E8FE800670C31 /* UserStatView.swift in Sources */,
+				D57ED27E2A60130900670C31 /* CurrentUserProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D57ED24F2A5E811000670C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D57ED2502A5E811000670C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57ED2522A5E811000670C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IstagramPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 33F2H2TBU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.IstagramPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D57ED2532A5E811000670C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IstagramPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 33F2H2TBU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.IstagramPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57ED23E2A5E810E00670C31 /* Build configuration list for PBXProject "IstagramPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57ED24F2A5E811000670C31 /* Debug */,
+				D57ED2502A5E811000670C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57ED2512A5E811000670C31 /* Build configuration list for PBXNativeTarget "IstagramPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57ED2522A5E811000670C31 /* Debug */,
+				D57ED2532A5E811000670C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57ED23B2A5E810E00670C31 /* Project object */;
+}
