@@ -39,6 +39,7 @@
 		D57ED2992A604A0100670C31 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2982A604A0100670C31 /* AuthService.swift */; };
 		D57ED29D2A604D8800670C31 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED29C2A604D8800670C31 /* ContentViewModel.swift */; };
 		D57ED2A02A610CA000670C31 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED29F2A610CA000670C31 /* RegistrationViewModel.swift */; };
+		D57ED2D82A619F3000670C31 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2D72A619F3000670C31 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		D57ED2982A604A0100670C31 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D57ED29C2A604D8800670C31 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D57ED29F2A610CA000670C31 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		D57ED2D72A619F3000670C31 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				D57ED29F2A610CA000670C31 /* RegistrationViewModel.swift */,
+				D57ED2D72A619F3000670C31 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				D57ED26E2A5EC3B600670C31 /* SearchView.swift in Sources */,
 				D57ED27C2A6000A300670C31 /* User.swift in Sources */,
 				D57ED2492A5E810E00670C31 /* ContentView.swift in Sources */,
+				D57ED2D82A619F3000670C31 /* LoginViewModel.swift in Sources */,
 				D57ED29D2A604D8800670C31 /* ContentViewModel.swift in Sources */,
 				D57ED2632A5E856400670C31 /* ColorModel.swift in Sources */,
 				D57ED2842A60288100670C31 /* ProfileHeaderView.swift in Sources */,
