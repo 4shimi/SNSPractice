@@ -206,8 +206,8 @@
 		D57ED25C2A5E823200670C31 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				D57ED29B2A604D5E00670C31 /* ViewModel */,
 				D57ED29A2A604D3700670C31 /* View */,
+				D57ED29B2A604D5E00670C31 /* ViewModel */,
 			);
 			path = Root;
 			sourceTree = "<group>";
