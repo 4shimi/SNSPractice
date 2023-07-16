@@ -48,6 +48,8 @@
 		D57ED2E92A63FC9100670C31 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D57ED2E82A63FC9100670C31 /* Kingfisher */; };
 		D57ED2EB2A63FD5E00670C31 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2EA2A63FD5E00670C31 /* CircularProfileImageView.swift */; };
 		D57ED2F12A640FD700670C31 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2F02A640FD700670C31 /* FeedViewModel.swift */; };
+		D57ED2F32A641A2000670C31 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2F22A641A2000670C31 /* PostService.swift */; };
+		D57ED2F72A641DC000670C31 /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2F62A641DC000670C31 /* PostGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		D57ED2E52A63F54500670C31 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		D57ED2EA2A63FD5E00670C31 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		D57ED2F02A640FD700670C31 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		D57ED2F22A641A2000670C31 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		D57ED2F62A641DC000670C31 /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 			children = (
 				D57ED2D92A61CCCE00670C31 /* UserService.swift */,
 				D57ED2E52A63F54500670C31 /* ImageUploader.swift */,
+				D57ED2F22A641A2000670C31 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -260,10 +265,8 @@
 		D57ED2662A5E8F9100670C31 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D57ED2672A5E8FE800670C31 /* UserStatView.swift */,
-				D57ED2732A5F255C00670C31 /* IGTextFieldModifier.swift */,
-				D57ED2812A60260800670C31 /* PostGridView.swift */,
-				D57ED2EA2A63FD5E00670C31 /* CircularProfileImageView.swift */,
+				D57ED2F42A641D8900670C31 /* View */,
+				D57ED2F52A641D9300670C31 /* ViewModel */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -381,6 +384,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D57ED2F42A641D8900670C31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2672A5E8FE800670C31 /* UserStatView.swift */,
+				D57ED2732A5F255C00670C31 /* IGTextFieldModifier.swift */,
+				D57ED2812A60260800670C31 /* PostGridView.swift */,
+				D57ED2EA2A63FD5E00670C31 /* CircularProfileImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D57ED2F52A641D9300670C31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2F62A641DC000670C31 /* PostGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -463,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57ED2F72A641DC000670C31 /* PostGridViewModel.swift in Sources */,
 				D57ED26A2A5E994F00670C31 /* FeedView.swift in Sources */,
 				D57ED2992A604A0100670C31 /* AuthService.swift in Sources */,
 				D57ED2DA2A61CCCE00670C31 /* UserService.swift in Sources */,
@@ -488,6 +511,7 @@
 				D57ED27A2A5FC01B00670C31 /* CompleteSignUpView.swift in Sources */,
 				D57ED2822A60260800670C31 /* PostGridView.swift in Sources */,
 				D57ED2612A5E836A00670C31 /* MainTabView.swift in Sources */,
+				D57ED2F32A641A2000670C31 /* PostService.swift in Sources */,
 				D57ED2702A5F163E00670C31 /* LoginView.swift in Sources */,
 				D57ED2DE2A61CE4400670C31 /* SearchViewModel.swift in Sources */,
 				D57ED2A02A610CA000670C31 /* RegistrationViewModel.swift in Sources */,
