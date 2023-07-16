@@ -14,11 +14,7 @@ class UploadPostViewModel: ObservableObject {
     
     @Published var selectedImage: PhotosPickerItem? {
         ///didSet?이 뭐임 ->직후 호출
-        didSet { Task
-            {
-                await loadImage(fromItem: selectedImage)
-            }
-        }
+        didSet { Task { await loadImage(fromItem: selectedImage) } }
     }
     @Published var postImage: Image?
     

@@ -40,6 +40,10 @@
 		D57ED29D2A604D8800670C31 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED29C2A604D8800670C31 /* ContentViewModel.swift */; };
 		D57ED2A02A610CA000670C31 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED29F2A610CA000670C31 /* RegistrationViewModel.swift */; };
 		D57ED2D82A619F3000670C31 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2D72A619F3000670C31 /* LoginViewModel.swift */; };
+		D57ED2DA2A61CCCE00670C31 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2D92A61CCCE00670C31 /* UserService.swift */; };
+		D57ED2DE2A61CE4400670C31 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2DD2A61CE4400670C31 /* SearchViewModel.swift */; };
+		D57ED2E02A6254B800670C31 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2DF2A6254B800670C31 /* EditProfileView.swift */; };
+		D57ED2E42A625DAE00670C31 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57ED2E32A625DAE00670C31 /* EditProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +77,10 @@
 		D57ED29C2A604D8800670C31 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D57ED29F2A610CA000670C31 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		D57ED2D72A619F3000670C31 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D57ED2D92A61CCCE00670C31 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D57ED2DD2A61CE4400670C31 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D57ED2DF2A6254B800670C31 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		D57ED2E32A625DAE00670C31 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 		D57ED2542A5E815600670C31 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D57ED2D92A61CCCE00670C31 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -198,9 +207,8 @@
 		D57ED25B2A5E822900670C31 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				D57ED2642A5E882800670C31 /* ProfileView.swift */,
-				D57ED27D2A60130900670C31 /* CurrentUserProfileView.swift */,
-				D57ED2832A60288100670C31 /* ProfileHeaderView.swift */,
+				D57ED2E12A625D7500670C31 /* View */,
+				D57ED2E22A625D7E00670C31 /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -217,7 +225,8 @@
 		D57ED25D2A5E823900670C31 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				D57ED26D2A5EC3B600670C31 /* SearchView.swift */,
+				D57ED2DB2A61CE1500670C31 /* View */,
+				D57ED2DC2A61CE2000670C31 /* ViewModel */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -290,6 +299,41 @@
 			children = (
 				D57ED29F2A610CA000670C31 /* RegistrationViewModel.swift */,
 				D57ED2D72A619F3000670C31 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D57ED2DB2A61CE1500670C31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED26D2A5EC3B600670C31 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D57ED2DC2A61CE2000670C31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2DD2A61CE4400670C31 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D57ED2E12A625D7500670C31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2642A5E882800670C31 /* ProfileView.swift */,
+				D57ED27D2A60130900670C31 /* CurrentUserProfileView.swift */,
+				D57ED2832A60288100670C31 /* ProfileHeaderView.swift */,
+				D57ED2DF2A6254B800670C31 /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D57ED2E22A625D7E00670C31 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D57ED2E32A625DAE00670C31 /* EditProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -376,6 +420,7 @@
 			files = (
 				D57ED26A2A5E994F00670C31 /* FeedView.swift in Sources */,
 				D57ED2992A604A0100670C31 /* AuthService.swift in Sources */,
+				D57ED2DA2A61CCCE00670C31 /* UserService.swift in Sources */,
 				D57ED2862A602FA200670C31 /* UploadPostVIew.swift in Sources */,
 				D57ED2782A5FBE9C00670C31 /* CreatePasswordView.swift in Sources */,
 				D57ED2762A5FBA4000670C31 /* CreateUsernameView.swift in Sources */,
@@ -385,8 +430,10 @@
 				D57ED2D82A619F3000670C31 /* LoginViewModel.swift in Sources */,
 				D57ED29D2A604D8800670C31 /* ContentViewModel.swift in Sources */,
 				D57ED2632A5E856400670C31 /* ColorModel.swift in Sources */,
+				D57ED2E42A625DAE00670C31 /* EditProfileViewModel.swift in Sources */,
 				D57ED2842A60288100670C31 /* ProfileHeaderView.swift in Sources */,
 				D57ED2742A5F255C00670C31 /* IGTextFieldModifier.swift in Sources */,
+				D57ED2E02A6254B800670C31 /* EditProfileView.swift in Sources */,
 				D57ED2652A5E882800670C31 /* ProfileView.swift in Sources */,
 				D57ED2472A5E810E00670C31 /* IstagramPracticeApp.swift in Sources */,
 				D57ED26C2A5E995800670C31 /* FeedCell.swift in Sources */,
@@ -395,6 +442,7 @@
 				D57ED2822A60260800670C31 /* PostGridView.swift in Sources */,
 				D57ED2612A5E836A00670C31 /* MainTabView.swift in Sources */,
 				D57ED2702A5F163E00670C31 /* LoginView.swift in Sources */,
+				D57ED2DE2A61CE4400670C31 /* SearchViewModel.swift in Sources */,
 				D57ED2A02A610CA000670C31 /* RegistrationViewModel.swift in Sources */,
 				D57ED2722A5F208C00670C31 /* AddEmailView.swift in Sources */,
 				D57ED2802A6017D300670C31 /* Post.swift in Sources */,
